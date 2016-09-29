@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    border: 1px dashed grey;
+}
+
+html{
+    height: 100%;
+}
+/*Body section styling*/
+
+
+    /*Header section styling*/
+    .hr-sec{
+        display: flex;
+        width: 100%;
+    }
+        /*Inner Header styling*/
+        .hr-sec-nav{
+            display: flex;
+            margin: 0 auto;
+        }
+        .nav-list{
+            display: inline-block;
+            margin: 10px;
+        }
+    /*Main section styling*/
+    .mn-sec{
+        text-align: center;
+        margin: 40px;
+    }
+        /*Internal main section styling*/
+            /*.mn-sec-intro{
+
+            }*/
+            .mn-sec-gal{
+                margin: 20px auto;
+            }
+    /*Footer section styling*/
+    .ft-sec{
+
+    }
+        /*Internal footer section styling*/
+        .ft-sec-ftext{
+
+        }
+.src-icon{
+    height: 12px;
+    margin: 30px;
+    display: inline-block;
+}
