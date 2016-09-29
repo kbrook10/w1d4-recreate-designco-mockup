@@ -29,22 +29,38 @@ html{
         margin: 40px;
     }
         /*Internal main section styling*/
-            /*.mn-sec-intro{
-
-            }*/
+            .mn-sec-intro{
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
             .mn-sec-gal{
                 margin: 20px auto;
             }
     /*Footer section styling*/
     .ft-sec{
-
+        display: flex;
+        margin: 40px;
     }
         /*Internal footer section styling*/
-        .ft-sec-ftext{
-
+        .ft-sec-ftexta{
+            flex: 1;
         }
+        .ft-sec-ftextb{
+            flex: 3;
+            columns: 3;
+        }
+/*This section is for special styling*/
 .src-icon{
     height: 12px;
     margin: 30px;
     display: inline-block;
+}
+.ft-sec-ftexta > h4{
+    margin-top: 0;
+}
+.ft-sec-ftextb > h4{
+    margin-top: 0;
+}
+.ft-vw-lnk{
+    margin-top: 10px;
 }
