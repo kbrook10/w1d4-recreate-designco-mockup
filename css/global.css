@@ -3,7 +3,7 @@
     border: 1px dashed grey;
 }
 
-html{
+html, body{
     height: 100%;
 }
 /*Body section styling*/
@@ -13,49 +13,114 @@ html{
     .hr-sec{
         display: flex;
         width: 100%;
+        background-color: #F7F7F7;
+        position: fixed;
     }
         /*Inner Header styling*/
         .hr-sec-nav{
             display: flex;
             margin: 0 auto;
+            border-top: 6px solid red;
+            width: 75%;
         }
         .nav-list{
             display: inline-block;
             margin: 10px;
         }
+        .nav{
+            margin: 0;
+            padding-top: 15px;
+            padding-left: 0;
+        }
+        .src-icon{
+            height: 12px;
+            margin: 30px;
+            display: inline-block;
+        }
+        /*Footer section styling*/
+        .ft-sec{
+            /*display: flex;*/
+            display: inline-block;
+            margin: 40px;
+            color: #494949;
+            font-size: 15px;
+        }
+            /*Internal footer section styling*/
+            .ft-sec-ftexta{
+                float: left;
+                padding-right: 20px;
+            }
+            h4{
+                margin-top: 0;
+            }
+            .ft-sec-ftextb > p{
+                columns: 3;
+            }
+            .ft-sec-ftexta > h4{
+                color: #FF2424;
+            }
+            p > a{
+                text-decoration: none;
+                color: #B4B4B4;
+                border-bottom: 2px solid #B4B4B4;
+            }
+
     /*Main section styling*/
     .mn-sec{
         text-align: center;
         margin: 40px;
+        color: #494949;
     }
         /*Internal main section styling*/
             .mn-sec-intro{
                 margin-top: 10px;
                 margin-bottom: 20px;
+                font-size: 30px;
+                padding-top: 30px;
+                padding-bottom: 30px;
             }
             .mn-sec-gal{
-                margin: 20px auto;
+                margin: auto;
+                width: 920px;
+                display: flex;
             }
-    /*Footer section styling*/
-    .ft-sec{
-        display: flex;
-        margin: 40px;
-    }
-        /*Internal footer section styling*/
-        .ft-sec-ftexta{
-            flex: 1;
-        }
-        .ft-sec-ftextb{
-            flex: 3;
-            columns: 3;
-        }
+            /*This is the area for the gallery boxes*/
+                .gal-col1{
+                    display: flex;
+                    flex-direction: column;
+                    padding-right: 5px;
+                }
+                /*This is internal area of gallery column 1*/
+                    .gal-col1t{
+                        flex: 2;
+                        padding-bottom: 5px;
+                    }
+                    .gal-col1b{
+                        display: flex;
+                    }
+                    /*This is the internal area for the gallery column 1 bottom section*/
+                        .gal-col1bl{
+                            flex: 1.2;
+                            padding-right: 5px;
+                        }
+                        .gal-col1br{
+                            flex: 1.8;
+                        }
+                .gal-col2{
+                    display: flex;
+                    flex-direction: column;
+                /*This is internal area of gallery column 1*/
+                .gal-col-2t{
+                    flex: 2;
+                    padding-bottom: 12px;
+                    }
+                .gal-col2b{
+                    padding-top: 10px;
+                }
+
 /*This section is for special styling*/
-.src-icon{
-    height: 12px;
-    margin: 30px;
-    display: inline-block;
-}
-.ft-sec-ftexta > h4{
+
+/*.ft-sec-ftexta > h4{
     margin-top: 0;
 }
 .ft-sec-ftextb > h4{
@@ -63,4 +128,4 @@ html{
 }
 .ft-vw-lnk{
     margin-top: 10px;
-}
+}*/
