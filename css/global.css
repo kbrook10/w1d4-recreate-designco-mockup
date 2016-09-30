@@ -46,8 +46,8 @@ a {
             padding: 30px 5px;
         }
         .nav-list:hover{
-            background-color: rgb(0,0,0);
-            background-color: rgba(0,0,0, 0.5);
+            background-color: rgb(128,128,128);
+            background-color: rgba(128 ,128 ,128, 0.5);
         }
         .nav{
             margin: 0;
@@ -98,12 +98,12 @@ a {
     }
         /*Internal main section styling*/
             .mn-sec-intro{
-                margin-top: 10px;
-                margin-bottom: 20px;
                 font-size: 20px;
                 font-weight:lighter;
                 padding-top: 30px;
                 padding-bottom: 30px;
+                margin: 10px auto 20px auto;
+                width: 960px;
             }
             .mn-sec-gal{
                 margin: auto;
@@ -111,6 +111,13 @@ a {
                 display: flex;
             }
             /*This is the area for the gallery boxes*/
+                .gal-col1t, .gal-col1bl, .gal-col1br, .gal-col-2t, .gal-col2b{
+                    transition: all 1s ease;
+                    opacity: 1;
+                }
+                .gal-col1t:hover, .gal-col1bl:hover, .gal-col1br:hover, .gal-col-2t:hover, .gal-col2b:hover{
+                    opacity: .3;
+                }
                 .gal-col1{
                     display: flex;
                     flex-direction: column;
