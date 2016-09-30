@@ -18,10 +18,16 @@ html, body{
     }
         /*Inner Header styling*/
         .hr-sec-nav{
-            display: flex;
             margin: 0 auto;
             border-top: 6px solid red;
-            width: 75%;
+            width: 960px;
+            display: flex;
+        }
+        .hr-sec-nav1{
+            flex: 3;
+        }
+        .hr-sec-nav2{
+            flex: 8;
         }
         .nav-list{
             display: inline-block;
@@ -32,18 +38,20 @@ html, body{
             padding-top: 15px;
             padding-left: 0;
         }
+        .hr-sec-nav3{
+            flex: 1;
+        }
         .src-icon{
             height: 12px;
             margin: 30px;
-            display: inline-block;
         }
         /*Footer section styling*/
         .ft-sec{
-            /*display: flex;*/
-            display: inline-block;
-            margin: 40px;
+            margin: 10px auto;
             color: #494949;
             font-size: 15px;
+            width: 920px;
+            text-align: left;
         }
             /*Internal footer section styling*/
             .ft-sec-ftexta{
@@ -81,7 +89,7 @@ html, body{
             }
             .mn-sec-gal{
                 margin: auto;
-                width: 920px;
+                width: 940px;
                 display: flex;
             }
             /*This is the area for the gallery boxes*/
