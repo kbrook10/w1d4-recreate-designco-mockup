@@ -3,17 +3,14 @@
     /*border: 1px dashed grey;*/
 }
 
-html, body{
-    height: 100%;
-}
 /*Body section styling*/
 /*Header section styling*/
 .hr-sec{
-    margin-top: 0;
+    margin: 0;
     display: flex;
     width: 100%;
     background-color: #F7F7F7;
-    /*position: fixed;*/
+    position: fixed;
 }
     /*Inner Header styling*/
     .hr-sec-nav{
@@ -65,7 +62,7 @@ a {
 }
         /*Footer section styling*/
         .ft-sec{
-            margin: 10px auto;
+            margin: 30px auto;
             color: #494949;
             font-size: 15px;
             width: 920px;
@@ -94,16 +91,16 @@ a {
     /*Main section styling*/
     .mn-sec{
         text-align: center;
-        margin: 10px 40px;
+        margin: 0 40px 10px 40px;
         color: #494949;
     }
         /*Internal main section styling*/
             .mn-sec-intro{
                 font-size: 20px;
                 font-weight:lighter;
-                padding-top: 8px;
+                padding-top: 100px;
                 padding-bottom: 8px;
-                margin: 5px auto 5px auto;
+                margin: 0 auto 5px auto;
                 width: 960px;
             }
             .mn-sec-gal{
