@@ -8,6 +8,17 @@ html, body{
 }
 /*Body section styling*/
 
+/*Had issues with specificity on styling*/
+a {
+    text-decoration: none;
+    color: #2C2C2C;
+}
+.ft-sec-ftextah{
+    color: red;
+}
+#hd-hm-link{
+    color: red;
+}
 
     /*Header section styling*/
     .hr-sec{
@@ -31,12 +42,18 @@ html, body{
         }
         .nav-list{
             display: inline-block;
-            margin: 10px;
+            /*margin: 10px;*/
+            padding: 30px 5px;
+        }
+        .nav-list:hover{
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0, 0.5);
         }
         .nav{
             margin: 0;
-            padding-top: 15px;
+            /*padding-top: 15px;*/
             padding-left: 0;
+            transition: all 10s ease;
         }
         .hr-sec-nav3{
             flex: 1;
@@ -64,9 +81,9 @@ html, body{
             .ft-sec-ftextb > p{
                 columns: 3;
             }
-            .ft-sec-ftexta > h4{
+            /*.ft-sec-ftexta > h4{
                 color: #FF2424;
-            }
+            }*/
             p > a{
                 text-decoration: none;
                 color: #B4B4B4;
@@ -83,7 +100,8 @@ html, body{
             .mn-sec-intro{
                 margin-top: 10px;
                 margin-bottom: 20px;
-                font-size: 30px;
+                font-size: 20px;
+                font-weight:lighter;
                 padding-top: 30px;
                 padding-bottom: 30px;
             }
@@ -127,13 +145,3 @@ html, body{
                 }
 
 /*This section is for special styling*/
-
-/*.ft-sec-ftexta > h4{
-    margin-top: 0;
-}
-.ft-sec-ftextb > h4{
-    margin-top: 0;
-}
-.ft-vw-lnk{
-    margin-top: 10px;
-}*/
