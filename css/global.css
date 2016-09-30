@@ -1,13 +1,56 @@
 *{
     box-sizing: border-box;
-    border: 1px dashed grey;
+    /*border: 1px dashed grey;*/
 }
 
 html, body{
     height: 100%;
 }
 /*Body section styling*/
-
+/*Header section styling*/
+.hr-sec{
+    display: flex;
+    width: 100%;
+    background-color: #F7F7F7;
+    position: fixed;
+}
+    /*Inner Header styling*/
+    .hr-sec-nav{
+        margin: 0 auto;
+        border-top: 6px solid red;
+        width: 960px;
+        display: flex;
+    }
+    .hr-sec-nav1{
+        flex: 3;
+    }
+    .hr-sec-nav2{
+        flex: 8;
+    }
+    .nav-list{
+        display: inline-block;
+        /*margin: 10px;*/
+        padding: 30px 5px;
+        opacity: 1;
+        transition: all 1.3s ease;
+    }
+    .nav-list:hover{
+        background-color: rgb(128,128,128);
+        opacity: .4;
+    }
+    .nav{
+        margin: 0;
+        /*padding-top: 15px;*/
+        padding-left: 0;
+        /*transition: all 10s ease;*/
+    }
+    .hr-sec-nav3{
+        flex: 1;
+    }
+    .src-icon{
+        height: 12px;
+        margin: 30px;
+    }
 /*Had issues with specificity on styling*/
 a {
     text-decoration: none;
@@ -19,49 +62,6 @@ a {
 #hd-hm-link{
     color: red;
 }
-
-    /*Header section styling*/
-    .hr-sec{
-        display: flex;
-        width: 100%;
-        background-color: #F7F7F7;
-        position: fixed;
-    }
-        /*Inner Header styling*/
-        .hr-sec-nav{
-            margin: 0 auto;
-            border-top: 6px solid red;
-            width: 960px;
-            display: flex;
-        }
-        .hr-sec-nav1{
-            flex: 3;
-        }
-        .hr-sec-nav2{
-            flex: 8;
-        }
-        .nav-list{
-            display: inline-block;
-            /*margin: 10px;*/
-            padding: 30px 5px;
-        }
-        .nav-list:hover{
-            background-color: rgb(128,128,128);
-            background-color: rgba(128 ,128 ,128, 0.5);
-        }
-        .nav{
-            margin: 0;
-            /*padding-top: 15px;*/
-            padding-left: 0;
-            transition: all 10s ease;
-        }
-        .hr-sec-nav3{
-            flex: 1;
-        }
-        .src-icon{
-            height: 12px;
-            margin: 30px;
-        }
         /*Footer section styling*/
         .ft-sec{
             margin: 10px auto;
@@ -146,7 +146,7 @@ a {
                 .gal-col-2t{
                     flex: 2;
                     padding-bottom: 12px;
-                    }
+                }
                 .gal-col2b{
                     padding-top: 10px;
                 }
