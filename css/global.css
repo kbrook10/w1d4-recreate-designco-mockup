@@ -9,10 +9,11 @@ html, body{
 /*Body section styling*/
 /*Header section styling*/
 .hr-sec{
+    margin-top: 0;
     display: flex;
     width: 100%;
     background-color: #F7F7F7;
-    position: fixed;
+    /*position: fixed;*/
 }
     /*Inner Header styling*/
     .hr-sec-nav{
@@ -93,16 +94,16 @@ a {
     /*Main section styling*/
     .mn-sec{
         text-align: center;
-        margin: 40px;
+        margin: 10px 40px;
         color: #494949;
     }
         /*Internal main section styling*/
             .mn-sec-intro{
                 font-size: 20px;
                 font-weight:lighter;
-                padding-top: 30px;
-                padding-bottom: 30px;
-                margin: 10px auto 20px auto;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                margin: 5px auto 5px auto;
                 width: 960px;
             }
             .mn-sec-gal{
@@ -126,7 +127,7 @@ a {
                 /*This is internal area of gallery column 1*/
                     .gal-col1t{
                         flex: 2;
-                        padding-bottom: 5px;
+                        /*padding-bottom: 2.5px;*/
                     }
                     .gal-col1b{
                         display: flex;
